@@ -44,7 +44,8 @@ jobs:
 
   test:
     runs-on: self-hosted
-
+    needs: security-checks
+    
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
