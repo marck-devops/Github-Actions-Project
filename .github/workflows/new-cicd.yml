@@ -118,6 +118,6 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: marck-devops/GC-Bank:latest    
+        tags: marck-devops/gc-bank:latest    
     
 
