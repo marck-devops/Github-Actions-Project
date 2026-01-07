@@ -119,6 +119,6 @@ jobs:
       with:
         context: .
         push: true
-        tags: marck-devops/gc-bank:latest    
+        tags: marckdocker/gc-bank:latest    
     
 
